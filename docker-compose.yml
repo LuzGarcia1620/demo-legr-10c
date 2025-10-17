@@ -6,7 +6,7 @@ services:
              -"5173:80"
         restart: unless-stopped
         networks: 
-             -demo-net
+             - demo-net
         
 
 networks:
